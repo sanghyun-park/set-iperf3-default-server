@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sudo apt update
 sudo apt install -y net-tools iperf3
 
 echo 'net.core.wmem_max=4194304
