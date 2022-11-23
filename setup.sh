@@ -2,6 +2,7 @@
 
 sudo apt update
 sudo apt install -y net-tools iperf3
+sudo apt install -y moreutils
 
 echo 'net.core.wmem_max=4194304
 net.core.rmem_max=12582912
